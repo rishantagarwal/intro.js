@@ -2464,6 +2464,10 @@
 		removeHint: function(stepId) {
 			_removeHint.call(this, stepId)
 			return this
+		},
+		test: function() {
+			console.log("rishant")
+			return this
 		}
 	}
 
